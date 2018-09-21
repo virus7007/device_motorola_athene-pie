@@ -87,17 +87,17 @@ void vendor_load_properties()
 
     if (device_boot == "athene_13mp") {
         /* Moto G4 (XT162x) */
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "athene");
+        property_override_dual("ro.product.device", "ro.product.vendor.device", "athene");
         property_override("ro.build.description", "athene-user 8.1.0 OPJ28.111-22 532da release-keys");
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "Moto G4");
+        property_override_dual("ro.product.model", "ro.product.vendor.model", "Moto G4");
         property_set("ro.telephony.default_network", "10");
     } else {
         /* Moto G4 Plus (XT164x) */
-        property_override_dual("ro.product.device", "ro.vendor.product.device", "athene_f");
+        property_override_dual("ro.product.device", "ro.product.vendor.device", "athene_f");
         property_override("ro.build.description", "athene_f-user 8.1.0 OPJ28.111-22 532da release-keys");
         property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys");
-        property_override_dual("ro.product.model", "ro.vendor.product.model", "Moto G4 Plus");
+        property_override_dual("ro.product.model", "ro.product.vendor.model", "Moto G4 Plus");
         property_set("ro.telephony.default_network", "10,0");
     }
 
