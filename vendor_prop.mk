@@ -65,7 +65,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	camera.display.lmax=1280x720 \
 	camera.display.umax=1920x1080 \
 	persist.camera.HAL3.enabled=1 \
-	camera.hal1.packagelist=com.skype.raider
+	vendor.camera.hal1.packagelist=com.skype.raider
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
