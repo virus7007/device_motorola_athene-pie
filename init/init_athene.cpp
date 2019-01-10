@@ -124,7 +124,7 @@ void vendor_load_properties()
     }
 }
 
-/* Target-Specific Dalvik Heap & HWUI Configuration */
+/* Target-Specific Dalvik Heap Configuration */
 static void target_ram(void) {
     std::string ram;
 
