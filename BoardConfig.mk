@@ -244,6 +244,10 @@ VENDOR_SECURITY_PATCH := 2018-12-01
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/vendor/sepolicy
 
+# Strip debug
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
