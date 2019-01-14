@@ -101,7 +101,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.demo.hdmirotationlock=false \
 	debug.enable.sglscale=1 \
 	ro.opengles.version=196610 \
-	ro.sf.lcd_density=480 \
+	ro.sf.lcd_density=400 \
 	debug.hwui.use_buffer_age=false
 
 # DRM
