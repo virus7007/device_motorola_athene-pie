@@ -211,9 +211,6 @@ on boot
     chown system system /sys/homebutton/wakeup
     chown system system /sys/homebutton/sleep
 
-    # SMBChg control
-    chown system system /sys/kernel/smbchg_control/turbo_charging
-
     # Kcal control
     chown system system /sys/devices/platform/kcal_ctrl.0/kcal
 
