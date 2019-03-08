@@ -204,12 +204,8 @@ on boot
     chown system system /sys/module/ccid_bridge/parameters/bulk_msg_timeout
 
     # FPC home button permissions
-    chown system system /sys/homebutton/key
-    chown system system /sys/homebutton/vib_strength
-
-    chown system system /sys/homebutton/home
-    chown system system /sys/homebutton/wakeup
-    chown system system /sys/homebutton/sleep
+    chown system system /sys/homebutton/enable
+    chown system system /sys/homebutton/enable_wakeup
 
     # STML0XX driver parameter permissions
     chown root oem_5004 /sys/module/stml0xx/parameters/irq_disable
