@@ -243,9 +243,6 @@ VENDOR_SECURITY_PATCH := 2018-12-01
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/vendor/sepolicy
 
-# Power
-TARGET_USES_INTERACTION_BOOST := true
-
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
