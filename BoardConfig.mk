@@ -245,6 +245,10 @@ VENDOR_SECURITY_PATCH := 2018-12-01
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/vendor/sepolicy
 
+# Power
+TARGET_CLUSTER_SWITCHED_PLACES := true
+TARGET_HAS_NO_WLAN_STATS := true
+
 # Strip debug
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
