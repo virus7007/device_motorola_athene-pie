@@ -97,6 +97,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.hw=1 \
+	debug.sf.latch_unsignaled=1 \
 	debug.egl.hw=1 \
 	persist.hwc.mdpcomp.enable=true \
 	debug.mdpcomp.logs=0 \
