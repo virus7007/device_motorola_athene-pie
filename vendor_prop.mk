@@ -79,7 +79,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.sys.cnd.iwlan=1
 
 # Coresight
-persist.debug.coresight.config=stm-events
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.debug.coresight.config=stm-events
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
