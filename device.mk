@@ -253,7 +253,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.mmi.boot.sh \
     init.mmi.laser.sh \
-    init.mmi.touch.sh \
     init.mmi.usb.rc \
     init.oem.hw.sh \
     init.qcom.bt.sh \
