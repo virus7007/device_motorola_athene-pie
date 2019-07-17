@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	voice.playback.conc.disabled=true \
 	voice.record.conc.disabled=false \
 	voice.voip.conc.disabled=true \
-	voice.conc.fallbackpath=deep-buffer \
+	vendor.voice.conc.fallbackpath=deep-buffer \
 	audio.offload.min.duration.secs=60 \
 	audio.offload.track.enable=true \
 	audio.deep_buffer.media=true \
@@ -119,14 +119,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.qfp=false
-
-# GPS
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.mot.gps.conf.from.sim=true \
-	persist.mot.gps.smart_battery=1 \
-	persist.mot.gps.assisted=false \
-	persist.gps.qc_nlp_in_use=0 \
-	ro.pip.gated=0
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -326,5 +318,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.mot.build.version.sdk_int=28 \
 	ro.mot.build.product.increment=11 \
 	ro.mot.build.version.release=28.11 \
-	ro.mot.ignore_csim_appid=true \
-	persist.mot.gps.smart_battery=1
+	ro.mot.ignore_csim_appid=true
