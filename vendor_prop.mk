@@ -105,8 +105,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	debug.enable.sglscale=1 \
 	ro.opengles.version=196610 \
 	ro.sf.lcd_density=400 \
-	debug.hwui.use_buffer_age=false \
-	debug.sdm.support_writeback=0
+	debug.hwui.use_buffer_age=false
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
