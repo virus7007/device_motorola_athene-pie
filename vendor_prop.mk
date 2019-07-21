@@ -155,9 +155,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.core_ctl_max_cpu=4 \
 	ro.vendor.extension_library=libqti-perfd-client.so \
 	sys.games.gt.prof=0 \
-	sched.colocate.enable=1 \
-	ro.vendor.qti.am.reschedule_service=true \
-	ro.vendor.qti.sys.fw.bservice_enable=true
+	sched.colocate.enable=1
 
 # Play Store
 PRODUCT_PROPERTY_OVERRIDES += \
